@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Halaman Utama</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="static/login.js"></script>
+	<link rel="stylesheet" href="static/login.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Fasttracksanglah.com</h1><small>Tools pencatat IKI</small>
+		</div>
+	</div>
+	
+	
+	<div class="container">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-4">
+			<div class="panel panel-info">
+				<div class="panel-heading text-center">Input Data Pasien</div>
+				<div class="panel-body">
+					<form action="#" method="post" role="form">
+						<div class="form-group">
+							<label for="nocm">No. CM:</label><br>
+							<input type="text" name="nocm" id="nocm" class="form-control">
+							<span id="datapasien"></span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="panel panel-info">
+				<div class="panel-heading text-center">Tabel IKI</div>
+				<div class="panel-body">
+					<table class="table table-bordered table-responsive">
+						<tr>
+							<th class="bg-success">No.</th>
+							<th class="bg-success">Tanggal</th>
+							<th class="bg-success">IKI 1</th>
+							<th class="bg-success">IKI 2</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+	
+	<div class="container">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-8">
+			<div class="panel panel-info">
+				<div class="panel-heading text-center">Daftar Pasien Bulan</div>
+				<div class="panel-body">	
+					<table class="table table-bordered table-responsive">
+							<tr>
+								<th class="bg-success">No</th>
+								<th class="bg-success">Tanggal</th>
+								<th class="bg-success">No. CM</th>
+								<th class="bg-success">Nama Pasien</th>
+								<th class="bg-success">Diagnosis</th>
+								<th class="bg-success">IKI 1</th>
+								<th class="bg-success">IKI 2</th>
+							</tr>
+							<span id="daftarpasien"></span>
+					</table>
+				</div>
+			</div>	
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+</body>
+</html>
